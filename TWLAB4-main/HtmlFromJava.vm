@@ -1,0 +1,18 @@
+<html>
+	<head>
+				<title>Reading Data</title>
+	</head>
+	<body>
+		<ul>
+			#foreach($user in $persoana)
+				
+				<li>$user.nume</li>
+				<li>$user.varsta</li>
+				<li>$user.inaltime</li>
+				<li>$user.altel.rec1</li>
+				<li>$user.altel.rec2</li>
+				<li>$user.altel.rec3</li>
+			#end
+		</ul>
+	</body>
+</html>
